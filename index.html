@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download PDF Automatically</title>
+</head>
+<body>
+
+    <script>
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = 'front.pdf';
+            link.download = 'filename.pdf';
+            link.click();
+        };
+    </script>
+
+</body>
+</html>
